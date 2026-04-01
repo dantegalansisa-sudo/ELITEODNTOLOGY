@@ -415,8 +415,8 @@ export default function HeroSection() {
             }}
           >
             <img
-              src="https://images.unsplash.com/photo-1588776814546-1ffbb2a8e90a?w=700&q=80"
-              alt="Dentista profesional de Elite Dental Care"
+              src="/images/molar.jpeg"
+              alt="Especialistas de Elite Dental Care en procedimiento"
               style={{
                 width: '100%',
                 height: '100%',
