@@ -78,7 +78,7 @@ export default function Navbar() {
             src="/images/logo.png"
             alt="Elite Dental Care"
             style={{
-              height: '44px',
+              height: '64px',
               width: 'auto',
               objectFit: 'contain',
             }}
