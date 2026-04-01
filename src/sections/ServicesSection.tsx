@@ -40,6 +40,12 @@ const iconMap: Record<string, React.ReactNode> = {
       <path d="M9 12h6" /><path d="M12 9v6" /><circle cx="12" cy="12" r="10" />
     </svg>
   ),
+  thirdmolar: (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--blue-mid)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 2C8 2 6 5 6 8c0 4 2 6 2 10 0 2 1 4 4 4s4-2 4-4c0-4 2-6 2-10 0-3-2-6-6-6z" />
+      <path d="M10 8h4" />
+    </svg>
+  ),
 };
 
 export default function ServicesSection() {

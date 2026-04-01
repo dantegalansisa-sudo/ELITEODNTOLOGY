@@ -86,7 +86,9 @@ export default function ServiceDetailPage() {
         {/* Hero Banner */}
         <section
           style={{
-            background: 'linear-gradient(135deg, var(--blue-deep) 0%, #0D47A1 100%)',
+            background: service.image
+              ? `linear-gradient(135deg, rgba(21,101,192,0.88) 0%, rgba(13,71,161,0.92) 100%), url(${service.image}) center/cover no-repeat`
+              : 'linear-gradient(135deg, var(--blue-deep) 0%, #0D47A1 100%)',
             padding: '160px 0 100px',
             position: 'relative',
             overflow: 'hidden',

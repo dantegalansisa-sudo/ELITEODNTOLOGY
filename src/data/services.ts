@@ -9,6 +9,7 @@ export interface Service {
   items: string[];
   fullDescription: string[];
   benefits: string[];
+  image?: string;
 }
 
 export const categories = [
@@ -202,6 +203,33 @@ export const services: Service[] = [
       'Prevención temprana de problemas dentales',
       'Corrección del crecimiento maxilar',
       'Hábitos de higiene desde la infancia',
+    ],
+  },
+  {
+    id: 'cirugia-tercer-molar',
+    num: '08',
+    name: 'CIRUGÍA DEL TERCER MOLAR',
+    subtitle: 'EXTRACCIÓN SEGURA Y SIN DOLOR',
+    category: 'Cirugía',
+    icon: 'thirdmolar',
+    image: '/images/molar.jpeg',
+    description:
+      'Extracción de muelas del juicio con técnicas mínimamente invasivas. Procedimiento seguro, rápido y con recuperación acelerada.',
+    items: [
+      'Extracción simple de terceros molares',
+      'Extracción quirúrgica de muelas impactadas',
+      'Evaluación radiográfica preoperatoria',
+      'Protocolo de recuperación personalizado',
+    ],
+    fullDescription: [
+      'La cirugía del tercer molar es uno de los procedimientos más comunes en odontología. En Elite Dental Care, nuestro equipo especializado realiza extracciones de muelas del juicio con la máxima seguridad, utilizando técnicas mínimamente invasivas que reducen significativamente el dolor y el tiempo de recuperación.',
+      'Antes de cada procedimiento, realizamos una evaluación radiográfica completa para planificar la extracción de manera precisa. Nuestro protocolo incluye anestesia avanzada, instrumentación de última generación y un plan de cuidados postoperatorios detallado para garantizar una recuperación rápida y confortable.',
+    ],
+    benefits: [
+      'Procedimiento rápido y sin dolor',
+      'Técnicas mínimamente invasivas',
+      'Recuperación acelerada con protocolo guiado',
+      'Prevención de complicaciones futuras',
     ],
   },
 ];
