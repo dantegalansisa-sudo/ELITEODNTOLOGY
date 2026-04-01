@@ -399,6 +399,20 @@ body {
   }
 }
 
+/* ═══ Payment Methods Responsive ═══ */
+
+@media (max-width: 900px) {
+  .payment-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .payment-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* ═══ WhatsApp Button Responsive ═══ */
 
 @media (max-width: 768px) {

@@ -12,6 +12,8 @@ import AboutSection from '../sections/AboutSection';
 import TeamSection from '../sections/TeamSection';
 import ProcessSection from '../sections/ProcessSection';
 import TestimonialsSection from '../sections/TestimonialsSection';
+import PaymentMethodsSection from '../sections/PaymentMethodsSection';
+import FAQSection from '../sections/FAQSection';
 import ContactSection from '../sections/ContactSection';
 import Footer from '../sections/Footer';
 
@@ -32,6 +34,8 @@ export default function HomePage() {
         <TeamSection />
         <ProcessSection />
         <TestimonialsSection />
+        <PaymentMethodsSection />
+        <FAQSection />
         <ContactSection />
       </main>
       <Footer />
