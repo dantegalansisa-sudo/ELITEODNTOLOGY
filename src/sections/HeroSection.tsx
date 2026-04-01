@@ -415,7 +415,7 @@ export default function HeroSection() {
             }}
           >
             <img
-              src="/images/NEW.png"
+              src="/images/now.png"
               alt="Elite Dental Care"
               style={{
                 width: '100%',
