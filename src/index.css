@@ -361,6 +361,44 @@ body {
   }
 }
 
+/* ═══ Results Gallery Responsive ═══ */
+
+@media (max-width: 900px) {
+  .results-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .results-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ═══ Happy Clients Responsive ═══ */
+
+@media (max-width: 900px) {
+  .clients-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .clients-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ═══ Video Testimonials Responsive ═══ */
+
+@media (max-width: 768px) {
+  .video-testimonials-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 450px !important;
+    margin: 0 auto !important;
+  }
+}
+
 /* ═══ WhatsApp Button Responsive ═══ */
 
 @media (max-width: 768px) {

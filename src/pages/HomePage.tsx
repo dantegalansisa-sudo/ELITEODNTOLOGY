@@ -3,6 +3,9 @@ import WhatsAppButton from '../components/WhatsAppButton';
 import HeroSection from '../sections/HeroSection';
 import ServicesSection from '../sections/ServicesSection';
 import OrthoEvalSection from '../sections/OrthoEvalSection';
+import ResultsGallerySection from '../sections/ResultsGallerySection';
+import HappyClientsSection from '../sections/HappyClientsSection';
+import SmileDesignVideoSection from '../sections/SmileDesignVideoSection';
 import CEOSection from '../sections/CEOSection';
 import StatsSection from '../sections/StatsSection';
 import AboutSection from '../sections/AboutSection';
@@ -20,6 +23,9 @@ export default function HomePage() {
         <HeroSection />
         <ServicesSection />
         <OrthoEvalSection />
+        <ResultsGallerySection />
+        <HappyClientsSection />
+        <SmileDesignVideoSection />
         <CEOSection />
         <StatsSection />
         <AboutSection />
