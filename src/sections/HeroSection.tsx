@@ -415,8 +415,8 @@ export default function HeroSection() {
             }}
           >
             <img
-              src="/images/molar.jpeg"
-              alt="Especialistas de Elite Dental Care en procedimiento"
+              src="/images/NEW.png"
+              alt="Elite Dental Care"
               style={{
                 width: '100%',
                 height: '100%',
