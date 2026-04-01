@@ -142,16 +142,16 @@ export default function ContactSection() {
                   marginBottom: '20px',
                 }}
               >
-                <span style={{ fontSize: '24px' }}>🦷</span>
-                <span
+                <img
+                  src="/images/logo.png"
+                  alt="Elite Dental Care"
                   style={{
-                    fontFamily: 'var(--font-body)',
-                    fontWeight: 800,
-                    fontSize: '20px',
+                    height: '50px',
+                    width: 'auto',
+                    objectFit: 'contain',
+                    filter: 'brightness(0) invert(1)',
                   }}
-                >
-                  Elite Dental Care
-                </span>
+                />
               </div>
 
               {/* Cyan line */}
