@@ -46,17 +46,21 @@ export default function AboutSection() {
               borderRadius: '20px',
               overflow: 'hidden',
               boxShadow: 'var(--shadow-md)',
+              background: '#000',
             }}
           >
-            <img
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=700&q=80"
-              alt="Consultorio dental moderno de Elite Dental Care"
+            <video
+              src="/images/visita.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               style={{
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
                 display: 'block',
-                aspectRatio: '4/3',
+                aspectRatio: '3/4',
               }}
             />
           </div>
