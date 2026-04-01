@@ -74,46 +74,15 @@ export default function Navbar() {
             textDecoration: 'none',
           }}
         >
-          <div
+          <img
+            src="/images/logo.png"
+            alt="Elite Dental Care"
             style={{
-              width: '36px',
-              height: '36px',
-              borderRadius: '10px',
-              background: 'linear-gradient(135deg, var(--blue-mid), var(--cyan))',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: '18px',
+              height: '44px',
+              width: 'auto',
+              objectFit: 'contain',
             }}
-          >
-            🦷
-          </div>
-          <div>
-            <span
-              style={{
-                fontFamily: 'var(--font-body)',
-                fontWeight: 800,
-                fontSize: '16px',
-                color: 'var(--text-dark)',
-                display: 'block',
-                lineHeight: 1.1,
-              }}
-            >
-              Elite Dental
-            </span>
-            <span
-              style={{
-                fontFamily: 'var(--font-body)',
-                fontWeight: 500,
-                fontSize: '10px',
-                color: 'var(--blue-mid)',
-                letterSpacing: '0.1em',
-                textTransform: 'uppercase',
-              }}
-            >
-              Care
-            </span>
-          </div>
+          />
         </a>
 
         {/* Desktop Links */}
