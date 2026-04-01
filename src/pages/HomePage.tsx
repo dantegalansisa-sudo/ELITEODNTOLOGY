@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import WhatsAppButton from '../components/WhatsAppButton';
 import HeroSection from '../sections/HeroSection';
 import ServicesSection from '../sections/ServicesSection';
+import OrthoEvalSection from '../sections/OrthoEvalSection';
 import CEOSection from '../sections/CEOSection';
 import StatsSection from '../sections/StatsSection';
 import AboutSection from '../sections/AboutSection';
@@ -18,6 +19,7 @@ export default function HomePage() {
       <main>
         <HeroSection />
         <ServicesSection />
+        <OrthoEvalSection />
         <CEOSection />
         <StatsSection />
         <AboutSection />

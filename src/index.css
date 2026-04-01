@@ -294,6 +294,15 @@ body {
   }
 }
 
+/* ═══ OrthoEval Homepage Section Responsive ═══ */
+
+@media (max-width: 1024px) {
+  .ortho-eval-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+}
+
 /* ═══ Section Grids Responsive ═══ */
 
 @media (max-width: 1024px) {
