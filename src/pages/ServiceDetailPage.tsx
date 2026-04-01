@@ -570,6 +570,78 @@ export default function ServiceDetailPage() {
                   </a>
                 </motion.div>
 
+                {/* Evaluation Guide Card — only for ortodoncia */}
+                {service.id === 'ortodoncia' && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.7, delay: 0.05 }}
+                    onClick={() => { navigate('/servicios/ortodoncia/evaluacion'); window.scrollTo(0, 0); }}
+                    style={{
+                      background: 'linear-gradient(135deg, var(--cyan), #0097A7)',
+                      borderRadius: '24px',
+                      padding: '32px 28px',
+                      marginBottom: '24px',
+                      cursor: 'pointer',
+                      position: 'relative',
+                      overflow: 'hidden',
+                      transition: 'transform 0.3s, box-shadow 0.3s',
+                    }}
+                    whileHover={{ y: -4 }}
+                  >
+                    <div
+                      style={{
+                        position: 'absolute',
+                        top: '-30px',
+                        right: '-30px',
+                        width: '120px',
+                        height: '120px',
+                        background: 'rgba(255,255,255,0.08)',
+                        borderRadius: '50%',
+                        pointerEvents: 'none',
+                      }}
+                    />
+                    <span style={{ fontSize: '28px', display: 'block', marginBottom: '12px' }}>📋</span>
+                    <h4
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontWeight: 800,
+                        fontSize: '17px',
+                        color: '#fff',
+                        marginBottom: '8px',
+                        lineHeight: 1.3,
+                      }}
+                    >
+                      Guía de Evaluación de Ortodoncia
+                    </h4>
+                    <p
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '13px',
+                        color: 'rgba(255,255,255,0.8)',
+                        lineHeight: 1.6,
+                        marginBottom: '16px',
+                      }}
+                    >
+                      Conoce qué traer, qué incluye y el proceso completo paso a paso.
+                    </p>
+                    <span
+                      style={{
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '13px',
+                        fontWeight: 700,
+                        color: '#fff',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '6px',
+                      }}
+                    >
+                      Ver guía completa →
+                    </span>
+                  </motion.div>
+                )}
+
                 {/* Info Card */}
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
