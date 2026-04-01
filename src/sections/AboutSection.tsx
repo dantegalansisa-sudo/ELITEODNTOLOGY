@@ -214,8 +214,8 @@ export default function AboutSection() {
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <div style={{ display: 'flex' }}>
               {[
-                'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=80&q=80',
-                'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=80&q=80',
+                '/images/dra-hernandez.jpg',
+                '/images/dra-maria.jpg',
               ].map((src, i) => (
                 <img
                   key={i}
