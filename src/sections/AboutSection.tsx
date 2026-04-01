@@ -52,9 +52,9 @@ export default function AboutSection() {
             <video
               src="/images/visita.mp4"
               autoPlay
-              muted
               loop
               playsInline
+              controls
               style={{
                 width: '100%',
                 height: '100%',
