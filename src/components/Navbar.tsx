@@ -43,7 +43,7 @@ export default function Navbar() {
         top: 0,
         left: 0,
         right: 0,
-        height: '76px',
+        height: '90px',
         zIndex: 100,
         display: 'flex',
         alignItems: 'center',
@@ -78,7 +78,7 @@ export default function Navbar() {
             src="/images/logo.png"
             alt="Elite Dental Care"
             style={{
-              height: '64px',
+              height: '80px',
               width: 'auto',
               objectFit: 'contain',
             }}
@@ -202,7 +202,7 @@ export default function Navbar() {
           transition={{ duration: 0.3 }}
           style={{
             position: 'absolute',
-            top: '76px',
+            top: '90px',
             left: 0,
             right: 0,
             background: 'rgba(255,255,255,0.98)',
