@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import SectionLabel from '../components/SectionLabel';
 
 const credentials = [
-  { icon: '🦷', text: 'Odontología Especializada' },
+  { icon: '🦷', text: 'Ortodoncia y Ortopedia Maxilar' },
   { icon: '🏆', text: 'CEO & Fundadora de Elite Dental Care' },
   { icon: '📱', text: '@elitedentalcare.rd' },
   { icon: '📍', text: 'Santo Domingo, Rep. Dom.' },
@@ -168,7 +168,7 @@ export default function CEOSection() {
                   color: 'var(--text-muted)',
                 }}
               >
-                · Odontología Especializada
+                · Ortodoncia y Ortopedia Maxilar
               </span>
             </div>
           </motion.div>

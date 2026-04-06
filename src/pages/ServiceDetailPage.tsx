@@ -508,7 +508,7 @@ export default function ServiceDetailPage() {
                       lineHeight: 1.6,
                     }}
                   >
-                    Consulta inicial gratuita. Respuesta en menos de 2 horas.
+                    Las consultas con especialistas tienen un costo. Consulta por WhatsApp.
                   </p>
 
                   <a

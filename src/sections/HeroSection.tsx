@@ -202,7 +202,7 @@ export default function HeroSection() {
                 color: 'var(--blue-mid)',
               }}
             >
-              Odontología Especializada · Santo Domingo
+              Ortodoncia y Ortopedia Maxilar · Santo Domingo
             </span>
           </motion.div>
 
@@ -513,7 +513,7 @@ export default function HeroSection() {
                   fontFamily: 'var(--font-body)',
                 }}
               >
-                Odontología Especializada
+                Ortodoncia y Ortopedia Maxilar
               </p>
             </div>
             <div

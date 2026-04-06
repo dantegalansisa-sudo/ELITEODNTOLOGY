@@ -6,7 +6,7 @@ const faqs = [
   {
     question: '¿Cuánto cuesta una consulta de evaluación?',
     answer:
-      'La consulta de evaluación inicial tiene un costo accesible que se aplica como crédito a tu tratamiento si decides continuar. Contáctanos por WhatsApp para conocer el precio actualizado.',
+      'Las consultas con especialistas tienen un costo. Para más información sobre precios y disponibilidad, contáctanos directamente por WhatsApp al (829) 937-6644 y con gusto te orientamos.',
   },
   {
     question: '¿Necesito cita previa o puedo ir sin agendar?',

@@ -4,9 +4,9 @@ import DoctorCard from '../components/DoctorCard';
 
 const team = [
   {
-    name: 'Dra. Hernández',
-    role: 'CEO & Odontología Especializada',
-    specialty: 'Directora y especialista principal',
+    name: 'Dra. Madelyn Hernández',
+    role: 'CEO & Ortodoncia y Ortopedia Maxilar',
+    specialty: 'Directora y especialista en ortodoncia y ortopedia maxilar',
     instagram: '@elitedentalcare.rd',
     image: '/images/dra-hernandez.jpg',
     placeholder: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&q=80',

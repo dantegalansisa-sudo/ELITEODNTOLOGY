@@ -103,7 +103,7 @@ export default function ContactSection() {
               color: 'var(--text-muted)',
             }}
           >
-            Consulta inicial gratuita — Respuesta en menos de 2 horas
+            Las consultas con especialistas tienen un costo — Consulta por WhatsApp
           </p>
         </motion.div>
 
