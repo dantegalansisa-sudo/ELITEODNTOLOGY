@@ -51,10 +51,10 @@ export default function AboutSection() {
           >
             <video
               src="/images/visita.mp4"
-              autoPlay
               loop
               playsInline
               controls
+              preload="metadata"
               style={{
                 width: '100%',
                 height: '100%',
