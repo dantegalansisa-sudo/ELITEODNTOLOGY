@@ -15,9 +15,10 @@ const serviceOptions = [
 ];
 
 const specialistOptions = [
-  'Dra. Hernández (Especializada)',
+  'Dra. Hernández (Ortodoncia)',
   'Dra. María Castillo (General)',
   'Dra. Kiana Del Orbe (Endodoncia)',
+  'Dr. Sandy Muñoz (Implantología)',
   'Sin preferencia',
 ];
 

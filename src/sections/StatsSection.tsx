@@ -4,7 +4,7 @@ import AnimatedCounter from '../components/AnimatedCounter';
 const stats = [
   { value: 1735, suffix: '+', label: 'PACIENTES SATISFECHOS' },
   { value: 98, suffix: '%', label: 'TASA DE SATISFACCIÓN' },
-  { value: 3, suffix: '', label: 'ESPECIALISTAS EN EQUIPO' },
+  { value: 4, suffix: '', label: 'ESPECIALISTAS EN EQUIPO' },
   { value: 4.9, suffix: '★', label: 'CALIFICACIÓN PROMEDIO', decimals: 1 },
 ];
 

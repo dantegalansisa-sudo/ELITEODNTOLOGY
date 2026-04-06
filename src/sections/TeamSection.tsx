@@ -30,6 +30,15 @@ const team = [
     placeholder: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&q=80',
     badge: 'ENDODONCIA',
   },
+  {
+    name: 'Dr. Sandy Muñoz',
+    role: 'Cirujano Implantólogo',
+    specialty: 'Implantes dentales, cirugía oral e implantología avanzada',
+    instagram: '',
+    image: '/images/inplantalogo.jpeg',
+    placeholder: '',
+    badge: 'IMPLANTOLOGÍA',
+  },
 ];
 
 export default function TeamSection() {
@@ -64,9 +73,9 @@ export default function TeamSection() {
               lineHeight: 1.1,
             }}
           >
-            Conoce a Nuestras
+            Conoce a Nuestro
             <br />
-            <span style={{ color: 'var(--blue-mid)' }}>Especialistas</span>
+            <span style={{ color: 'var(--blue-mid)' }}>Equipo de Especialistas</span>
           </h2>
         </motion.div>
 
@@ -75,7 +84,7 @@ export default function TeamSection() {
           className="team-grid"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateColumns: 'repeat(4, 1fr)',
             gap: '32px',
           }}
         >
