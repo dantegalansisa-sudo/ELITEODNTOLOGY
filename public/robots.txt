@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.elitedentalcarerd.com/sitemap.xml
