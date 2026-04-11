@@ -2,62 +2,270 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.elitedentalcarerd.com/</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/endodoncia</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/cirugia-oral-maxilofacial</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/ortodoncia</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/rehabilitacion-oral</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/periodoncia</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/estetica-dental</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/odontopediatria</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/cirugia-tercer-molar</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.elitedentalcarerd.com/servicios/ortodoncia/evaluacion</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- Ortodoncia Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/ortodoncia/tratamiento/alineadores-invisibles</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/ortodoncia/tratamiento/brackets-metalicos-ceramicos</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/ortodoncia/tratamiento/ortodoncia-interceptiva</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/ortodoncia/tratamiento/retenedores-fijos-removibles</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Estética Dental Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/estetica-dental/tratamiento/carillas-porcelana</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/estetica-dental/tratamiento/blanqueamiento-led</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/estetica-dental/tratamiento/diseno-sonrisa-digital</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/estetica-dental/tratamiento/resinas-esteticas</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Endodoncia Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/endodoncia/tratamiento/microscopio-operatorio</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/endodoncia/tratamiento/instrumentacion-rotatoria-niti</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/endodoncia/tratamiento/retratamiento-conductos</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/endodoncia/tratamiento/apiceptomia-cirugia-endodontica</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Cirugía Oral y Maxilofacial Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-oral/tratamiento/extracciones-terceros-molares</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-oral/tratamiento/cirugia-tejidos-blandos</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-oral/tratamiento/implantes-dentales</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-oral/tratamiento/biopsias-patologia-oral</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Rehabilitación Oral Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/rehabilitacion-oral/tratamiento/coronas-puentes-porcelana</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/rehabilitacion-oral/tratamiento/protesis-removibles</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/rehabilitacion-oral/tratamiento/rehabilitacion-sobre-implantes</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/rehabilitacion-oral/tratamiento/reconstruccion-dental-completa</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Periodoncia Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/periodoncia/tratamiento/limpieza-profunda-raspado</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/periodoncia/tratamiento/cirugia-periodontal-regenerativa</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/periodoncia/tratamiento/tratamiento-gingivitis</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/periodoncia/tratamiento/mantenimiento-periodontal</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Odontopediatría Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/odontopediatria/tratamiento/sellantes-fosas-fisuras</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/odontopediatria/tratamiento/fluorizacion-profesional</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/odontopediatria/tratamiento/ortopedia-funcional-maxilares</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/odontopediatria/tratamiento/manejo-conducta-adaptacion</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Cirugía del Tercer Molar Treatments -->
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-tercer-molar/tratamiento/extraccion-simple-terceros-molares</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-tercer-molar/tratamiento/extraccion-quirurgica-muelas-impactadas</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-tercer-molar/tratamiento/evaluacion-radiografica-preoperatoria</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.elitedentalcarerd.com/servicios/cirugia-tercer-molar/tratamiento/protocolo-recuperacion-personalizado</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

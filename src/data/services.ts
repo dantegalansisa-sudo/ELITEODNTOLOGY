@@ -33,10 +33,10 @@ export const services: Service[] = [
     description:
       'Brackets y alineadores invisibles. Tecnología digital para planificar tu sonrisa antes de comenzar.',
     items: [
-      'Alineadores invisibles Invisalign',
-      'Brackets metálicos y cerámicos',
-      'Ortodoncia interceptiva',
-      'Retenedores fijos y removibles',
+      'Alineadores Invisibles Invisalign',
+      'Brackets Metálicos y Cerámicos',
+      'Ortodoncia Interceptiva',
+      'Retenedores Fijos y Removibles',
     ],
     fullDescription: [
       'En Elite Dental Care, nuestra especialidad en ortodoncia combina la tecnología más avanzada con un enfoque personalizado para cada paciente. Utilizamos sistemas de última generación que permiten planificar digitalmente el resultado final antes de iniciar el tratamiento.',
@@ -59,10 +59,10 @@ export const services: Service[] = [
     description:
       'Carillas de porcelana, blanqueamiento LED y diseño de sonrisa digital para transformar tu imagen.',
     items: [
-      'Carillas de porcelana ultrafinas',
-      'Blanqueamiento LED profesional',
-      'Diseño de sonrisa digital',
-      'Resinas estéticas de alta gama',
+      'Carillas de Porcelana Ultrafinas',
+      'Blanqueamiento LED Profesional',
+      'Diseño de Sonrisa Digital',
+      'Resinas Estéticas de Alta Gama',
     ],
     fullDescription: [
       'La estética dental en Elite Dental Care va más allá de un simple procedimiento cosmético. Nuestro enfoque combina arte y ciencia para crear sonrisas naturales que realzan la belleza única de cada paciente.',
@@ -85,10 +85,10 @@ export const services: Service[] = [
     description:
       'Tratamiento de conducto con microscopio y tecnología rotatoria. Salvamos piezas dentales con precisión milimétrica.',
     items: [
-      'Microscopio operatorio de alta resolución',
-      'Instrumentación rotatoria NiTi',
-      'Retratamiento de conductos',
-      'Apiceptomía y cirugía endodóntica',
+      'Microscopio Operatorio de Alta Resolución',
+      'Instrumentación Rotatoria NiTi',
+      'Retratamiento de Conductos',
+      'Apiceptomía y Cirugía Endodóntica',
     ],
     fullDescription: [
       'La Dra. Kiana Del Orbe, nuestra especialista en endodoncia, utiliza equipos de última generación incluyendo microscopio operatorio que permite visualizar el interior del diente con una precisión extraordinaria.',
@@ -111,10 +111,10 @@ export const services: Service[] = [
     description:
       'Procedimientos quirúrgicos orales y maxilofaciales con técnicas mínimamente invasivas y recuperación acelerada.',
     items: [
-      'Extracciones de terceros molares',
-      'Cirugía de tejidos blandos',
-      'Implantes dentales',
-      'Biopsias y patología oral',
+      'Extracciones de Terceros Molares',
+      'Cirugía de Tejidos Blandos',
+      'Implantes Dentales',
+      'Biopsias y Patología Oral',
     ],
     fullDescription: [
       'Nuestra área de cirugía oral y maxilofacial está equipada con la tecnología más avanzada para realizar procedimientos seguros y efectivos. Cada intervención se planifica meticulosamente usando imágenes diagnósticas de alta resolución.',
@@ -137,10 +137,10 @@ export const services: Service[] = [
     description:
       'Restauración integral de la función masticatoria y estética con prótesis fijas, removibles y sobre implantes.',
     items: [
-      'Coronas y puentes de porcelana',
-      'Prótesis removibles de precisión',
-      'Rehabilitación sobre implantes',
-      'Reconstrucción dental completa',
+      'Coronas y Puentes de Porcelana',
+      'Prótesis Removibles de Precisión',
+      'Rehabilitación sobre Implantes',
+      'Reconstrucción Dental Completa',
     ],
     fullDescription: [
       'La rehabilitación oral en Elite Dental Care aborda de manera integral la restauración de la función y estética dental. Nuestro enfoque multidisciplinario permite crear planes de tratamiento completos que devuelven la funcionalidad y belleza a la sonrisa.',
@@ -163,10 +163,10 @@ export const services: Service[] = [
     description:
       'Tratamiento especializado de encías y tejidos de soporte dental. Prevención y control de enfermedad periodontal.',
     items: [
-      'Limpieza profunda (raspado y alisado)',
-      'Cirugía periodontal regenerativa',
-      'Tratamiento de gingivitis',
-      'Mantenimiento periodontal',
+      'Limpieza Profunda (Raspado y Alisado)',
+      'Cirugía Periodontal Regenerativa',
+      'Tratamiento de Gingivitis',
+      'Mantenimiento Periodontal',
     ],
     fullDescription: [
       'La periodoncia es fundamental para mantener la salud de las encías y los tejidos que soportan los dientes. En Elite Dental Care, realizamos diagnósticos detallados del estado periodontal para establecer tratamientos efectivos y personalizados.',
@@ -189,10 +189,10 @@ export const services: Service[] = [
     description:
       'Atención dental especializada para niños en un ambiente amigable. Ortopedia maxilofacial para guiar el crecimiento.',
     items: [
-      'Sellantes de fosas y fisuras',
-      'Fluorización profesional',
-      'Ortopedia funcional de los maxilares',
-      'Manejo de conducta y adaptación',
+      'Sellantes de Fosas y Fisuras',
+      'Fluorización Profesional',
+      'Ortopedia Funcional de los Maxilares',
+      'Manejo de Conducta y Adaptación',
     ],
     fullDescription: [
       'Nuestro servicio de odontopediatría está diseñado para que los más pequeños tengan una experiencia dental positiva desde su primera visita. Creamos un ambiente amigable y utilizamos técnicas de manejo de conducta que generan confianza en los niños.',
@@ -216,10 +216,10 @@ export const services: Service[] = [
     description:
       'Extracción de muelas del juicio con técnicas mínimamente invasivas. Procedimiento seguro, rápido y con recuperación acelerada.',
     items: [
-      'Extracción simple de terceros molares',
-      'Extracción quirúrgica de muelas impactadas',
-      'Evaluación radiográfica preoperatoria',
-      'Protocolo de recuperación personalizado',
+      'Extracción Simple de Terceros Molares',
+      'Extracción Quirúrgica de Muelas Impactadas',
+      'Evaluación Radiográfica Preoperatoria',
+      'Protocolo de Recuperación Personalizado',
     ],
     fullDescription: [
       'La cirugía del tercer molar es uno de los procedimientos más comunes en odontología. En Elite Dental Care, nuestro equipo especializado realiza extracciones de muelas del juicio con la máxima seguridad, utilizando técnicas mínimamente invasivas que reducen significativamente el dolor y el tiempo de recuperación.',

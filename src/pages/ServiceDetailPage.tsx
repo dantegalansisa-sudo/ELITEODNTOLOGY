@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getServiceById, services } from '../data/services';
+import { getTreatmentsByService } from '../data/treatments';
 import Navbar from '../components/Navbar';
 import Footer from '../sections/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
@@ -353,47 +354,71 @@ export default function ServiceDetailPage() {
                     }}
                     className="service-items-grid"
                   >
-                    {service.items.map((item, i) => (
-                      <motion.div
-                        key={item}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.4, delay: i * 0.08 }}
-                        style={{
-                          display: 'flex',
-                          alignItems: 'flex-start',
-                          gap: '12px',
-                          padding: '16px 20px',
-                          background: 'var(--bg-white)',
-                          borderRadius: '14px',
-                          border: '1.5px solid var(--border)',
-                        }}
-                      >
-                        <span
-                          style={{
-                            color: 'var(--blue-mid)',
-                            fontSize: '16px',
-                            fontWeight: 700,
-                            flexShrink: 0,
-                            marginTop: '1px',
-                          }}
-                        >
-                          &rarr;
-                        </span>
-                        <span
-                          style={{
-                            fontFamily: 'var(--font-body)',
-                            fontSize: '14px',
-                            color: 'var(--text-dark)',
-                            fontWeight: 500,
-                            lineHeight: 1.5,
-                          }}
-                        >
-                          {item}
-                        </span>
-                      </motion.div>
-                    ))}
+                    {(() => {
+                      const serviceTreatments = getTreatmentsByService(service.id);
+                      return service.items.map((item, i) => {
+                        const treatment = serviceTreatments.find((t) => t.name === item);
+                        const content = (
+                          <>
+                            <span
+                              style={{
+                                color: 'var(--blue-mid)',
+                                fontSize: '16px',
+                                fontWeight: 700,
+                                flexShrink: 0,
+                                marginTop: '1px',
+                              }}
+                            >
+                              &rarr;
+                            </span>
+                            <span
+                              style={{
+                                fontFamily: 'var(--font-body)',
+                                fontSize: '14px',
+                                color: treatment ? 'var(--blue-mid)' : 'var(--text-dark)',
+                                fontWeight: treatment ? 600 : 500,
+                                lineHeight: 1.5,
+                              }}
+                            >
+                              {item}
+                            </span>
+                          </>
+                        );
+                        return (
+                          <motion.div
+                            key={item}
+                            initial={{ opacity: 0, x: -20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.4, delay: i * 0.08 }}
+                            onClick={() => treatment && navigate(`/servicios/${service.id}/tratamiento/${treatment.slug}`)}
+                            style={{
+                              display: 'flex',
+                              alignItems: 'flex-start',
+                              gap: '12px',
+                              padding: '16px 20px',
+                              background: 'var(--bg-white)',
+                              borderRadius: '14px',
+                              border: '1.5px solid var(--border)',
+                              cursor: treatment ? 'pointer' : 'default',
+                              transition: 'border-color 0.3s, box-shadow 0.3s',
+                            }}
+                            onMouseEnter={(e) => {
+                              if (treatment) {
+                                e.currentTarget.style.borderColor = 'var(--blue-light)';
+                                e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
+                              }
+                            }}
+                            onMouseLeave={(e) => {
+                              e.currentTarget.style.borderColor = 'var(--border)';
+                              e.currentTarget.style.boxShadow = 'none';
+                            }}
+                          >
+                            {content}
+                          </motion.div>
+                        );
+                      });
+                    })()}
                   </div>
                 </motion.div>
 
